@@ -6,10 +6,7 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-    public function index(): View{
-        return view('auth.login');
-    }
-    public function auth (Request $request): void{
-        echo "login logic";
+    public function index(): view{
+      return view(view: "login.index");
     }
 }

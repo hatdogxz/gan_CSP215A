@@ -13,5 +13,5 @@ Route::get(uri: '/wall', action: 'App\Http\Controllers\WallController@index');
 
 Route::get(uri: '/hello', action: 'App\Http\Controllers\HelloController@index');
 
-
+Route::get(uri: '/create', action: 'App\Http\Controllers\CreateController@index');
 
